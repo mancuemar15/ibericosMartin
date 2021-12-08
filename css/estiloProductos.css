@@ -1,0 +1,408 @@
+@font-face {
+    font-family: 'Folio';
+    src: url(fonts/FOLIO.ttf);
+}
+
+@font-face {
+    font-family: 'ACaslon';
+    src: url(fonts/ACaslonPro-Regular.ttf)
+}
+
+body {
+    font-family: 'Folio';
+    background-color: wheat;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(230, 195, 130);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 2%;
+}
+
+nav li{
+    padding: 15px 1.5%;
+    margin: 0;
+    display: inline-block;
+}
+
+nav a {
+    padding: 15px 25px;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+nav li:hover {
+    background-color: rgb(194, 164, 109);
+    text-decoration: underline;
+}
+
+#titulo {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 20% 60% 20%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin: 0;
+}
+#top-left {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#top-right {
+    grid-row: 1;
+    grid-column: 3/4;
+}
+
+#bottom-left {
+    border-top: solid black 1px;
+    grid-row: 2/3;
+    grid-column: 1;
+}
+
+#bottom-right {
+    border-top: solid black 1px;
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+#titulo-seccion {
+    font-family: 'ACaslon';
+    font-size: 90px;
+    font-weight: 150;
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 0;
+    padding-top: 3%;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#subtitulo-seccion {
+    font-family: 'ACaslon';
+    font-size: 30px;
+    font-weight: 150;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 0;
+    padding-top: 1%;
+    grid-row: 2/3;
+    grid-column: 2;
+}
+
+#estructura {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 17% 83%;
+    align-items: stretch;
+    justify-items: stretch;
+}
+
+main {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+aside {
+    grid-row: 1/2;
+    grid-column: 1;
+    display: flex;
+    background-color: rgb(230, 195, 130);
+    align-items: stretch;   
+    justify-content: center;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+aside li{
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.cabecera-aside {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+#elemento-divisor {
+    border-top: solid 1px black;
+    padding: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+aside a {
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+aside li:hover:not(.cabecera-aside) {
+    background-color: rgb(194, 164, 109);
+    text-decoration: underline;
+}
+
+#contenedor-productos {
+    margin-top: 100px;
+    display: grid;
+    height: 100%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns: 33.33% 33.33% 33.34%;
+    align-items: center;
+    text-align: center;
+}
+
+#contenedor-productos img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#contenedor-productos h1 {
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.celda-texto {
+    margin: 0;
+    padding: 0;
+}
+
+#jamon-bellota-100 {
+    grid-row: 1;
+    grid-column: 1;
+    border-right: solid black 1px;
+}
+
+#jamon-bellota-50 {
+    grid-row: 1;
+    grid-column: 2;
+    border-right: solid black 1px;
+}
+
+#jamon-cebo-50 {
+    grid-row: 1;
+    grid-column: 3/4;
+}
+
+#texto-jamon-bellota-100 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#texto-jamon-bellota-50 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#texto-jamon-cebo-50 {
+    grid-row: 2;
+    grid-column: 3/4;
+}
+
+#paleta-bellota-100 {
+    grid-row: 3;
+    grid-column: 1;
+    border-right: solid black 1px;
+}
+
+#paleta-bellota-50 {
+    grid-row: 3;
+    grid-column: 2;
+    border-right: solid black 1px;
+}
+
+#paleta-cebo-50 {
+    grid-row: 3;
+    grid-column: 3/4;
+}
+
+#texto-paleta-bellota-100 {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+#texto-paleta-bellota-50 {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#texto-paleta-cebo-50 {
+    grid-row: 4;
+    grid-column: 3/4;
+}
+
+#lomo-bellota-100 {
+    grid-row: 5;
+    grid-column: 1;
+    border-right: solid black 1px;
+}
+
+#lomo-bellota-50 {
+    grid-row: 5;
+    grid-column: 2;
+    border-right: solid black 1px;
+}
+
+#lomo-cebo-50 {
+    grid-row: 5;
+    grid-column: 3/4;
+}
+
+#texto-lomo-bellota-100 {
+    grid-row: 6;
+    grid-column: 1;
+}
+
+#texto-lomo-bellota-50 {
+    grid-row: 6;
+    grid-column: 2;
+}
+
+#texto-lomo-cebo-50 {
+    grid-row: 6;
+    grid-column: 3/4;
+}
+
+#salchichon-bellota-100 {
+    grid-row: 7;
+    grid-column: 1;
+    border-right: solid black 1px;
+}
+
+#salchichon-bellota-50 {
+    grid-row: 7;
+    grid-column: 2;
+    border-right: solid black 1px;
+}
+
+#salchichon-cebo-50 {
+    grid-row: 7;
+    grid-column: 3/4;
+}
+
+#texto-salchichon-bellota-100 {
+    grid-row: 8;
+    grid-column: 1;
+}
+
+#texto-salchichon-bellota-50 {
+    grid-row: 8;
+    grid-column: 2;
+}
+
+#texto-salchichon-cebo-50 {
+    grid-row: 8;
+    grid-column: 3/4;
+}
+
+#chorizo-bellota-100 {
+    grid-row: 9;
+    grid-column: 1;
+    border-right: solid black 1px;
+}
+
+#chorizo-bellota-50 {
+    grid-row: 9;
+    grid-column: 2;
+    border-right: solid black 1px;
+}
+
+#chorizo-cebo-50 {
+    grid-row: 9;
+    grid-column: 3/4;
+}
+
+#texto-chorizo-bellota-100 {
+    grid-row: 10/11;
+    grid-column: 1;
+}
+
+#texto-chorizo-bellota-50 {
+    grid-row: 10/11;
+    grid-column: 2;
+}
+
+#texto-chorizo-cebo-50 {
+    grid-row: 10/11;
+    grid-column: 3/4;
+}
+
+footer {
+    background-color: black;
+    color: wheat;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    grid-template-columns: 33% 33% 34%;
+    width: 90%;
+    height: 350px;
+    padding-right: 5%;
+    padding-left: 5%;
+    position: relative;
+    bottom: 0px;
+}
+
+.celda-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#lema-footer {
+    font-family: 'ACaslon';
+    font-style: italic;
+    font-size: 16px;
+    border-top: solid 1px;
+    grid-row: 2/3;
+    grid-column: 1;
+}
+
+#direccion {
+    border-top: solid 1px;
+    grid-row: 2/3;
+    grid-column: 2;
+    line-height: 160%;
+}
+
+#copyright {
+    border-top: solid 1px;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 180%;
+}
