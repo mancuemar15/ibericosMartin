@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+    <channel>
+        <title>Ibéricos Martín</title>
+        <link>https://mancuemar15.github.io</link>
+        <description>Este es un ejemplo de web basad en la sindicación de contenidos</description>
+        <language>es</language>
+
+        <item>
+            <title>Recetas</title>
+            <link>https://mancuemar15.github.io/recetas.html</link>
+            <description>Este es un ejemplo01 de web basada en la sindicación de contenidos movido</description>
+        </item>
+
+        <item>
+            <title>Item02</title>
+            <link>http://www.infoalisal.com/seccion02</link>
+            <description>Este es un ejemplo02 de web basada en la sindicación de contenidos</description>
+        </item>
+    </channel>
+</rss>
