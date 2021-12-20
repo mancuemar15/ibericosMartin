@@ -12,10 +12,10 @@
             <link>https://mancuemar15.github.io/recetas.html</link>
             <description>Este es un ejemplo01 de web basada en la sindicación de contenidos movido</description>
             <image>
-                <url>./../imagenes/pizza-jamon.jpeg</url>
+                <url>https://mancuemar15.github.io/imagenes/pizza-jamon.jpeg</url>
                 <title>Pizza Jamon</title>
                 <link>https://mancuemar15.github.io/recetas.html</link>
-              </image>
+            </image>
         </item>
 
         <item>
