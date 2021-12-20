@@ -24,12 +24,11 @@
             <author>cuevasm2009@gmail.com</author>
             <category>Recetas</category>
             <pubDate>Mon, 20 Dec 2021 19:30:00 EST</pubDate>
-            <enclosure url="https://mancuemar15.github.io/imagenes/pizza-jamon.jpeg" length="2000" type="image/jpeg" />
+            <enclosure url="https://mancuemar15.github.io/imagenes/pizza-jamon.jpeg" length="150" type="image/jpeg" />
         </item>
         <item>
             <title>Nueva receta de tartar de salchichón ibérico.</title>
             <link>https://mancuemar15.github.io/recetas.html#tartar-salchichon</link>
-            <url>https://mancuemar15.github.io/imagenes/tartar-de-salchichon.jpg</url>
             <description>El salchichón es uno de esos embutidos que nos ha visto crecer a todos, ¿quién no se 
             ha tomado alguna vez en el colegio el típico bocata de esta pieza elaborada que sabe a pura tradición
             española? La popularidad del salchichón reside tanto en su versatilidad como en esa combinación
@@ -39,6 +38,7 @@
             <author>cuevasm2009@gmail.com</author>
             <category>Recetas</category>
             <pubDate>Mon, 20 Dec 2021 19:30:00 EST</pubDate>
+            <enclosure url="https://mancuemar15.github.io/imagenes/tartar-de-salchichon.jpg" length="150" type="image/jpeg" />
         </item>
     </channel>
 </rss>
