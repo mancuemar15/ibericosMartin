@@ -7,6 +7,8 @@
         <category>Recetas</category>
         <lastBuildDate>Mon, 20 Dec 2021 19:30:00 EST</lastBuildDate>
         <language>es</language>
+        <webMaster>cuevasm2009@gmail.com</webMaster>
+        <managingEditor>cuevasm2009@gmail.com</managingEditor>
         <copyright>Copyright 2021 Manuel Cuevas Martín</copyright>
         <image>
             <link>https://mancuemar15.github.io</link>
@@ -17,19 +19,18 @@
         </image>
         <item>
             <title>Inauguramos sección de recetas</title>
-            <link>https://mancuemar15.github.io/recetas.html</link>
+            <link>https://mancuemar15.github.io/recetas.html#pizza-jamon</link>
             <description>¡Damos la bienvenida a nuestra sección de recetas! Como inauguración tendremos una deliciosa pizza de jamón de bellota 100% ibérico.</description>
         </item>
-
         <item>
             <title>Nueva receta de tartar de salchichón ibérico.</title>
-            <link>https://mancuemar15.github.io/recetas.html</link>
+            <link>https://mancuemar15.github.io/recetas.html#tartar-salchichon</link>
             <description>El salchichón es uno de esos embutidos que nos ha visto crecer a todos, ¿quién no se 
             ha tomado alguna vez en el colegio el típico bocata de esta pieza elaborada que sabe a pura tradición
-             española? La popularidad del salchichón reside tanto en su versatilidad como en esa combinación
-              equilibrada de ajo y pimienta negra que hace de su consumo algo casi adictivo sobretodo cuando nos
-               referimos al salchichón ibérico de Ibéricos Martín, elaborado con las mejores carnes del cerdo
-                ibérico que pasta en libertad por la dehesa y totalmente natural, sin ningún tipo de aditivo añadido.</description>
+            española? La popularidad del salchichón reside tanto en su versatilidad como en esa combinación
+            equilibrada de ajo y pimienta negra que hace de su consumo algo casi adictivo sobretodo cuando nos
+            referimos al salchichón ibérico de Ibéricos Martín, elaborado con las mejores carnes del cerdo
+            ibérico que pasta en libertad por la dehesa y totalmente natural, sin ningún tipo de aditivo añadido.</description>
         </item>
     </channel>
 </rss>
