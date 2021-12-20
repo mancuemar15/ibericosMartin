@@ -19,12 +19,12 @@
         <item>
             <title>Inauguramos sección de recetas</title>
             <link>https://mancuemar15.github.io/recetas.html#pizza-jamon</link>
-            <url>https://mancuemar15.github.io/imagenes/pizza-jamon.jpeg</url>
             <description>¡Damos la bienvenida a nuestra sección de recetas! Como inauguración tendremos una 
             deliciosa pizza de jamón de bellota 100% ibérico.</description>
             <author>cuevasm2009@gmail.com</author>
             <category>Recetas</category>
             <pubDate>Mon, 20 Dec 2021 19:30:00 EST</pubDate>
+            <enclosure url="https://mancuemar15.github.io/imagenes/pizza-jamon.jpeg" length="150" type="image/jpeg" />
         </item>
         <item>
             <title>Nueva receta de tartar de salchichón ibérico.</title>
