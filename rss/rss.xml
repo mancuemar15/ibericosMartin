@@ -17,16 +17,6 @@
             <width>200</width>
         </image>
         <item>
-            <title>Inauguramos sección de recetas</title>
-            <pubDate>Mon, 20 Dec 2021 21:53:15 +0100</pubDate>
-            <link>https://mancuemar15.github.io/recetas.html#pizza-jamon</link>
-            <author>cuevasm2009@gmail.com</author>
-            <category>Recetas</category>
-            <enclosure url="https://mancuemar15.github.io/imagenes/pizza-jamon.jpeg" length="150" type="image/jpeg" />
-            <description>¡Damos la bienvenida a nuestra sección de recetas! Como inauguración tendremos una 
-            deliciosa pizza de jamón de bellota 100% ibérico.</description>
-        </item>
-        <item>
             <title>Nueva receta de tartar de salchichón ibérico.</title>
             <pubDate>Mon, 20 Dec 2021 19:30:00 +0100</pubDate>
             <link>https://mancuemar15.github.io/recetas.html#tartar-salchichon</link>
@@ -39,6 +29,16 @@
             equilibrada de ajo y pimienta negra que hace de su consumo algo casi adictivo sobretodo cuando nos
             referimos al salchichón ibérico de Ibéricos Martín, elaborado con las mejores carnes del cerdo
             ibérico que pasta en libertad por la dehesa y totalmente natural, sin ningún tipo de aditivo añadido.</description>
+        </item>
+        <item>
+            <title>Inauguramos sección de recetas</title>
+            <pubDate>Mon, 20 Dec 2021 19:00:00 +0100</pubDate>
+            <link>https://mancuemar15.github.io/recetas.html#pizza-jamon</link>
+            <author>cuevasm2009@gmail.com</author>
+            <category>Recetas</category>
+            <enclosure url="https://mancuemar15.github.io/imagenes/pizza-jamon.jpeg" length="150" type="image/jpeg" />
+            <description>¡Damos la bienvenida a nuestra sección de recetas! Como inauguración tendremos una 
+            deliciosa pizza de jamón de bellota 100% ibérico.</description>
         </item>
     </channel>
 </rss>
