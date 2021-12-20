@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>Ibéricos Martín</title>
+    <link>https://mancuemar15.github.io</link>
+    <description>Tu página de referencia de productos ibéricos.</description>
+    <language>es</language>
+    <managingEditor>cuevasm2009@gmail.com</managingEditor>
+    <webMaster>cuevasm2009@gmail.com</webMaster>
+    <copyright>Copyright 2021 Manuel Cuevas Martín</copyright>
+    <image>
+      <title>Ibéricos Martín</title>
+      <link>https://mancuemar15.github.io</link>
+      <url>https://mancuemar15.github.io/LOGO/CABEZA-CERDO.png</url>
+      <width>200</width>
+      <height>200</height>
+    </image>
+    <item>
+      <title>Nueva receta de tartar de salchichón ibérico.</title>
+      <pubDate>Mon, 20 Dec 2021 21:53:54 +0100</pubDate>
+      <link>https://mancuemar15.github.io/recetas.html#tartar-salchichon</link>
+      <author>cuevasm2009@gmail.com</author>
+      <category>Recetas</category>
+      <enclosure url="https://mancuemar15.github.io/imagenes/tartar-de-salchichon.jpeg" length="150" type="image/jpeg" />
+      <description><![CDATA[El salchichón es uno de esos embutidos que nos ha visto crecer a todos, ¿quién no se ha tomado alguna vez en el colegio el típico bocata de esta pieza elaborada que sabe a pura tradición española? La popularidad del salchichón reside tanto en su versatilidad como en esa combinación equilibrada de ajo y pimienta negra que hace de su consumo algo casi adictivo sobretodo cuando nos referimos al salchichón ibérico de Ibéricos Martín, elaborado con las mejores carnes del cerdo ibérico que pasta en libertad por la dehesa y totalmente natural, sin ningún tipo de aditivo añadido.]]></description>
+    </item>
+    <item>
+      <title>Inauguramos sección de recetas</title>
+      <pubDate>Mon, 20 Dec 2021 21:53:15 +0100</pubDate>
+      <link>https://mancuemar15.github.io/recetas.html#pizza-jamon</link>
+      <author>cuevasm2009@gmail.com</author>
+      <category>Recetas</category>
+      <enclosure url="https://mancuemar15.github.io/imagenes/pizza-jamon.jpeg" length="150" type="image/jpeg" />
+      <description><![CDATA[¡Damos la bienvenida a nuestra sección de recetas! Como inauguración tendremos una deliciosa pizza de jamón de bellota 100% ibérico.]]></description>
+    </item>
+  </channel>
+</rss>
